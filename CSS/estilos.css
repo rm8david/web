@@ -1,0 +1,224 @@
+/* Tipografía personalizada de Breaking Bad */
+@font-face {
+    font-family: 'BreakingBad'; /* nombre de la fuente */
+    src: url("../FONT/Breaking\ Bad.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Propiedades generales*/
+body{
+    text-align: center;
+    background-color: #0c3e11;
+}
+h1.titleForm{
+    font-style: italic;
+}
+
+/*propiedades del formulario*/
+fieldset {
+    border: 2px solid #0ab323; 
+    border-radius: 8px; 
+    padding: 10px; /*margen interior*/
+    margin: 10px 0; /* Margen superior e inferior */
+    background-color: rgba(104, 255, 51, 10%); /* Color de fondo transparente*/
+    box-shadow: 0 0 15px rgba(0,0,0,5); /* sombreado */
+    width:50%;
+    margin: auto;
+  }
+  legend{
+    font-weight: bolder;/*Poner los titulos de los formularios en negrita*/
+  }
+  #sexo{
+    font-size: 10px;
+  }
+
+#bodyFondo{
+    background-image: url("../IMG/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 14;
+    font-family: breakingBad;
+}
+
+#formbody{
+    background-image: url("../IMG/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 14;
+    font-family: Helvetica;
+}
+
+/* Imagen del poster */
+#poster{
+    width: 700px;
+    height: 300px;
+    border-style: outset;
+    border-width: 10px;
+    border-color: brown;
+    border-radius: 22px;
+
+    /* logo breaking bad*/
+}
+#logoBr{
+    width: 200px;
+    height: 200px;
+}
+
+/* PROPIEDADES DE LA PAGINA tabla.html */
+
+/*letras pequeñas de la tabla periodica*/
+
+div{
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: Helvetica;
+
+}
+/* propiedades de las tablas  */
+table{
+    table-layout: fixed;
+
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 10px solid #2b2d23;
+    border-collapse: collapse;
+
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: bolder;
+    
+}
+/* propiedades de las celdas */
+td{
+    width: 60px;
+    height: 60px;
+    border: 8px solid #2b2d23;
+}
+/* colores de las celdas de la tabla grande*/
+#a{
+    background-color:#b8dd17 ;
+}
+#b{
+    background-color:#d4e87d ;
+}
+
+#c{
+    background-color: #eff7c6;
+}
+#d{
+    background-color: #89a418;
+}
+#darkbrown{
+    background-color: #62702b;
+}
+#e{
+    background-color:#c5e054 ;
+}
+#f{
+    background-color: #bbc49b;
+}
+#g{
+    background-color: #818d54;
+}
+#ma{
+    background-color: #ab8fcc;
+}
+#vacio{
+    background-color: #2b2d23 ;
+}
+
+
+/* imagenes de la tabla grande */
+#walter{
+    width: 100%;
+    height: 45%;
+}
+#skyler{
+    width: 100%;
+    height: 40%;
+}
+#hank{
+    width: 100%;
+    height: 205%;
+}
+#marie{
+    width: 80%;
+    height: 40%;
+}
+#saul{
+    width: 100%;
+    height: 50%;
+}
+#pinkman{
+    width: 100%;
+    height: 50%;
+}
+#badger{
+    width: 90%;
+    height: 40%;
+}
+#hector{
+    width: 80%;
+    height: 40%;
+}
+#tuco{
+    width: 90%;
+    height: 45%;
+}
+#mike{
+    width: 90%;
+    height: 45%;
+}
+#gale{
+    width: 90%;
+    height: 40%;
+}
+/* Propiedades de la tabla pequeña */
+#tpequeña{
+    background-color:#c4c238 ;
+    border: 8px solid #2b2d23;
+    border-collapse: collapse;
+    /*imagenes de la tabla pequeña*/
+}
+#bus{
+    width: 90%;
+    height: 45%;
+}
+#cristal{
+    width: 80%;
+    height: 90%;
+}
+#pizza{
+    width: 90%;
+    height: 70%;
+}
+#pistola{
+    width: 90%;
+    height: 60%;
+}
+#pocima{
+    width: 90%;
+    height: 70%;
+}
+#calzoncillos{
+    width: 90%;
+    height: 60%;
+}
+#mascara{
+    width: 90%;
+    height: 70%;
+}
+#movil{
+    width: 90%;
+    height: 70%;
+}
+#plato{
+    width: 90%;
+    height: 70%;
+}
+#mosca{
+    width: 100%;
+    height: 90%;
+}
